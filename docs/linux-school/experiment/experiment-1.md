@@ -1,6 +1,7 @@
 # 实验一: Linux系统基础
 
 [github actions test]
+[github actions test2]
 
 1. 实验目的
 
