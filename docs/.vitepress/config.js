@@ -1,6 +1,6 @@
 export default {
   title: "LittlerXu",
-  base: "/~AI_2000870023/",
+  // base: "/~AI_2000870023/",
   themeConfig: {
     logo: "/NIUBI-removebg.png",
     nav: [
