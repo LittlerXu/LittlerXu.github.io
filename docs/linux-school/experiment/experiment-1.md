@@ -1,10 +1,5 @@
 # 实验一: Linux系统基础
 
-[github actions test]
-[github actions test2]
-[github actions test3]
-[github actions test4]
-
 1. 实验目的
 
 熟悉 Linux 系统的安装，各种基本操作命令，各种常用管理（用户管理、软件管理、设
