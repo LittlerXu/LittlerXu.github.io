@@ -53,6 +53,7 @@ export default {
             { text: "作业二", link: "/linux-school/assignment/assignment-2" },
             { text: "作业三", link: "/linux-school/assignment/assignment-3" },
             { text: "作业四", link: "/linux-school/assignment/assignment-4" },
+            { text: "作业五", link: "/linux-school/assignment/assignment-5" },
           ],
           collapsible: true,
           collapsed: true,
