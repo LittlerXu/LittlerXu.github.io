@@ -18,14 +18,11 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
-          node-version: 20
-          # Bug 修复：将 Fetch-depth 修改为 fetch-depth
           fetch-depth: 0
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v4
         with:
-          node-version: 20
           cache: yarn
       - run: yarn install
       - name: Build
@@ -35,3 +32,5 @@ jobs:
         with:
           path: docs/.vitepress/dist
       - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v1

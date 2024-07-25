@@ -24,8 +24,6 @@ console.log("catch error");
 
 所以Promise内的错误无论是否被捕获,都不会影响Promise外部程序的执行.
 
-<img src="Promise.assets/image-20230413114029212.png" alt="image-20230413114029212" style="zoom:67%;" />
-
 
 
 >注意:有一种情况下Promise中的错误会成为全局错误:
@@ -55,8 +53,6 @@ console.log("catch error");
 - Promise中**未被捕获的**错误和`reject()`的区别在于是否会跳过Promise回调函数中剩余代码的执行.
 
 - Promise的状态一旦发生改变,则之后的错误将不会发生,因为发生错误会改变promise的状态,而promise的状态只能改变一次.
-
-  <img src="Promise.assets/image-20230413154614530.png" alt="image-20230413154614530" style="zoom:67%;" />
 
   一般来说，调用`resolve`或`reject`以后，Promise 的使命就完成了，后继操作应该放到`then`方法里面，而不应该直接写在`resolve`或`reject`的后面。所以，最好在它们前面加上`return`语句，这样就不会有意外。
 
@@ -111,7 +107,5 @@ new Promise((resolve, reject) => {
 > 在链中手动添加了Onjected回调函数,则链中此Onjected回调函数之前的错误会在此被拦截,不会继续向下传递.如果这个Onjected回调中发生了新的错误,会将此错误向下传递.
 
 所以:**要想异常穿透到最后的catch中,则链上的每一个then方法最好都别添加Onjected回调函数,要添加则必须确保返回正确的Promise**
-
-<img src="Promise.assets/image-20230413214409810.png" alt="image-20230413214409810" style="zoom:67%;" />
 
 图中因为在链中的第一个then方法中设置了Onjected回调函数,且没有返回正确的Promise(没有将error进行传递),所以导致后续的Onjected无法接收到最开始的异常.

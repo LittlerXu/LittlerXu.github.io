@@ -101,7 +101,7 @@
    >}
    >```
    >
-   ><img src="项目笔记.assets/image-20240409204923980.png" alt="image-20240409204923980" style="zoom: 67%;" />
+   ><img :src="`项目笔记.assets/image-20240409204923980.png`" alt="image-20240409204923980" style="zoom: 67%;" />
 
 
 

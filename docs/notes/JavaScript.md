@@ -30,7 +30,6 @@
 
 ### 1-2 Javacript的组成
 
-![image-20220510144904468](JS笔记.assets/image-20220510144904468.pg)
 
 ```txt
 1. ECMAScript: 定义了javascript的语法规范描述了语言的基本语法和数据类型
