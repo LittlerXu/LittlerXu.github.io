@@ -3,18 +3,18 @@ layout: home
 
 hero:
   name: LittlerXu
-  text: personal homepage
-  tagline: Front-end engineer, but not limited to front-end
+  text: 正在努力的前端er
+  tagline: 前端之路漫漫, 逆水行舟, 不进则退
   image:
     src: /logo.png
     alt: 网站的 logo 图片
   actions:
     - theme: brand
-      text: Come on strong
-      link: /note/JavaScript
+      text: 博客
+      link: /blogs/在vite中配置组件图标和接口的自动引入
     - theme: alt
-      text: 查看linux作业和实验
-      link: /linux-school/experiment/experiment-1
+      text: 笔记
+      link: /notes/JavaScript
 features:
   - icon: ⚡️
     title: 记录知识
