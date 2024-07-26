@@ -1,5 +1,7 @@
 export default {
-  title: "LittlerXu",
+  title: "Blogs",
+  description: "个人博客",
+  head: [["link", { rel: "icon", type: "image/x-icon", href: "favicon.ico" }]],
   // base: "/~AI_2000870023/",
   themeConfig: {
     logo: "/NIUBI-removebg.png",
