@@ -1,3 +1,5 @@
 .VPImage.logo {
   width: 33px;
+  height: 29px;
+  transform: translateY(-3px);
 }
