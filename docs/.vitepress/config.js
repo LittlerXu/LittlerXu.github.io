@@ -116,6 +116,22 @@ export default {
           text: "vue3组件通信方法全总结",
           link: "/blogs/vue3组件通信方法全总结",
         },
+        {
+          text: "node版本管理工具对比",
+          link: "/blogs/node版本管理工具对比",
+        },
+        {
+          text: "Promise中的Error",
+          link: "/blogs/Promise中的Error",
+        },
+        {
+          text: "this指向解析",
+          link: "/blogs/this指向解析",
+        },
+        {
+          text: "vue3组件通信方法全总结",
+          link: "/blogs/vue3组件通信方法全总结",
+        },
       ],
       "/notes": [
         {
