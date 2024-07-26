@@ -1,3 +1,4 @@
+# async和await的注意点
 async函数返回一个Promise, await表达式接受一个Promise,但这两种情况下的Promise的onFulfilled函数的执行时机是不一样的:
 
 async函数返回的Promise的onFulfilled函数执行时机与async函数的中return表达式所接受的值有关:

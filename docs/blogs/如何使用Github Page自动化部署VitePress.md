@@ -1,3 +1,4 @@
+# 如何使用Github Page自动化部署VitePress
 将利用VitePress构建的网站部署到[GitHub Pages]([GitHub Pages | Websites for you and your projects, hosted directly from your GitHub repository. Just edit, push, and your changes are live.](https://pages.github.com/))的方法有两种:
 
 - 创建并利用"UserName.github.io"仓库

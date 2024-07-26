@@ -1,3 +1,4 @@
+# Promise中的Error
 #### Promise中错误与Promise外错误的区别
 
 在Promise中发生的错误在控制台报错时会在错误类型前附加`(in promise)`表示这是promise中的错误而非全局错误,eg:`Uncaught (in promise) ReferenceError: num is not defined`.
