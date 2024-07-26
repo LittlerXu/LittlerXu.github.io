@@ -1,8 +1,9 @@
 export default {
-  title: "Blogs",
-  description: "个人博客",
-  head: [["link", { rel: "icon", type: "image/x-icon", href: "favicon.ico" }]],
-  // base: "/~AI_2000870023/",
+  title: "LittlerXu",
+  //网站的描述。这将在页面 HTML 中呈现为<meta>标记。
+  description: "blogs of LittlerXu",
+  //标签页图标
+  head: [["link", { rel: "icon", href: "/favicon.ico" }]],
   themeConfig: {
     logo: "/NIUBI-removebg.png",
     nav: [
