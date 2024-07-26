@@ -20,7 +20,7 @@ export default {
           { text: "Vue3", link: "/notes/Vue3" },
           { text: "Sass", link: "/notes/Sass" },
           { text: "Axios", link: "/notes/Axios" },
-          { text: "Promse", link: "/notes/Promse" },
+          { text: "Promise", link: "/notes/Promise" },
         ],
       },
     ],

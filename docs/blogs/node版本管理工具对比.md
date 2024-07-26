@@ -21,6 +21,8 @@ nvm-desktop 的功能包括：
 
 首先，在[nvm-desktop的Release页面](https://github.com/1111mp/nvm-desktop/releases))下载系统对应的版本：
 
+<img :src="`node版本管理工具.assets/640-17001926944704.png`" alt="图片" style="zoom:50%;" />
+
 下载完成之后，进行安装。
 
 ### **环境配置**
@@ -38,27 +40,43 @@ export PATH="$NVMD_DIR/bin:$PATH"
 
 Windows 下则不需要额外的操作，安装好运行之后直接搜索指定的 Node.js 版本点击下载安装即可。
 
+<img :src="`node版本管理工具.assets/640-17001926944705.png`" alt="图片" style="zoom:50%;" />
+
 下载的过程中会实时显示下载进度。
 
 安装了新的 Node.js 版本之后，可以在已安装中查看：
+
+<img :src="`node版本管理工具.assets/640-17001926944706.png`" alt="图片" style="zoom:50%;" />
 
 可以应用或者卸载已经下载好的版本。
 
 可以在终端中查看是否切换成功：
 
+<img :src="`node版本管理工具.assets/640-17001926944707.png`" alt="图片" style="zoom:50%;" />
+
 nvm-desktop 还支持为每个项目设置不同的 Node.js 版本，只需从本地添加项目，并设置需要的版本即可：
+
+<img :src="`node版本管理工具.assets/640-17001926944708.png`" alt="图片" style="zoom:50%;" />
 
 这样设置之后，全局的 Node.js 版本和项目的 Node.js 版本互不干扰。
 
 除此之外，点击版本名称可以查看该版本的更新日志，点击右上角的“远程刷新”按钮可以获取最新的 Node.js 版本：
 
+<img :src="`node版本管理工具.assets/640-17001926944719.png`" alt="图片" style="zoom:50%;" />
+
 支持搜索 Node.js 版本、 V8 版本、NPM 版本，支持按发布时间排序，对不同版本进行筛选：
+
+<img :src="`node版本管理工具.assets/640-170019269447110.png`" alt="图片" style="zoom:50%;" />
 
 ### 便捷访问
 
 在 Mac 上，支持在顶部菜单栏便捷修改 Node.js 版本：
 
+<img :src="`node版本管理工具.assets/640-170019269447111.png`" alt="图片" style="zoom:50%;" />
+
 在 Windows 上，支持在右下角菜单便捷修改 Node.js 版本：
+
+<img :src="`node版本管理工具.assets/640-170019269447112.png`" alt="图片" style="zoom:50%;" />
 
 ## 注意事项
 
@@ -81,6 +99,8 @@ nvm-desktop的安装路径为:`C:\Users\86173\.nvmd`
 ## 使用nvm的注意点
 
 安装的时候这个配置项是设置Symlink文件夹的名称和位置, 会在使用`use <version>`命令之后自动创建这个Symlink文件夹, 所以在安装nvm之前确保这个文件夹不存在, 不然会使`use <version>`命令无效.
+
+<img :src="`node版本管理工具.assets/image-20231004143021268.png`" alt="image-20231004143021268" style="zoom:67%;" />
 
 安装node所在文件夹默认位置为nvm文件夹, 可使用`nvm root <path>`修改,但不能是Symlink文件夹.
 
