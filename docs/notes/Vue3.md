@@ -46,7 +46,7 @@ npm create vue@latest
 
 ## 2.具体配置
 ## 配置项目名称
-√ Project name: vue3_test
+√ Project name: Vue3_test
 ## 是否添加TypeScript支持
 √ Add TypeScript?  Yes
 ## 是否添加JSX支持
@@ -1531,7 +1531,7 @@ template
 
 **常见搭配形式：**
 
-img src="vue3.assets/image-20231119185900990.png" alt="image-20231119185900990" style="zoom:60%;" /
+img src="Vue3.assets/image-20231119185900990.png" alt="image-20231119185900990" style="zoom:60%;" /
 
 ## props
 
@@ -2160,7 +2160,7 @@ export default emitter
 
 提供数据的组件，在合适的时候触发事件
 
-![image-20240120233522323](vue3.assets/image-20240120233522323.png)
+![image-20240120233522323](Vue3.assets/image-20240120233522323.png)
 
 ## 透传 Attributes
 
