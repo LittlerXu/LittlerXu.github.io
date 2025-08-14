@@ -2,7 +2,7 @@
 import { h } from 'vue'
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
-import Advertising from './components/advertising.vue'
+import Advertising from './components/Advertising.vue'
 import './style.css'
 
 export default {
