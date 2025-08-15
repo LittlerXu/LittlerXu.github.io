@@ -6,6 +6,7 @@ export default defineConfig({
   description: "H5页面搭建平台",
   lang: 'zh-CN',
   appearance: 'dark',
+  head: [['link', { rel: 'icon', href: 'https://cdn.cnbj1.fds.api.mi-img.com/activity-platform/upload/upload/78a65fe7-3366-4d6a-886a-6ddb39963294.png' }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
   logo: 'https://cdn.cnbj1.fds.api.mi-img.com/activity-platform/upload/upload/78a65fe7-3366-4d6a-886a-6ddb39963294.png',
