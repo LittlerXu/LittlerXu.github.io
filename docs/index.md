@@ -14,7 +14,7 @@ hero:
       link: http://cms.act.tv.xiaomi.srv/manageHome/activityListManage?page=1
     - theme: alt
       text: 查看指引
-      link: guide/markdown-examples
+      link: guide/start
 
 features:
   - title: 快速搭建 🚀
